@@ -81,6 +81,37 @@ LEGAL_KNOWLEDGE = [
             "public interest (Winter v. Natural Resources Defense Council, 2008)."
         ),
     },
+    {
+        "id": "gdpr_2026",
+        "keywords": ["gdpr", "data protection", "privacy", "personal data", "eu"],
+        "text": (
+            "GDPR fines up to 4% of global annual revenue or EUR 20M. "
+            "Q1 2026: EUR 68.18M total fines (394% increase from Q1 2025). "
+            "Largest 2026 fines: MLU/Yango EUR 100M (unlawful Russia transfers, May 2026), "
+            "Free Mobile EUR 27M (data security, Jan 2026), Reddit EUR 16M (underage users, Feb 2026). "
+            "EU-Brazil Mutual Adequacy Decisions (Jan 2026) allow free data flow."
+        ),
+    },
+    {
+        "id": "fbar_2026",
+        "keywords": ["fbar", "foreign", "account", "offshore", "irs", "penalty"],
+        "text": (
+            "FBAR 2026 penalties (inflation-adjusted): $16,536 non-willful, $165,353+ willful "
+            "(greater of $165,353 or 50% account balance). Reyes (2nd Cir. Jan 2026): "
+            "'reckless disregard' = willful violation. FBAR statute: 6 years — clock does not "
+            "start if FBAR was never filed. Due date: April 15, 2026, auto extension to Oct 15."
+        ),
+    },
+    {
+        "id": "sec_enforcement_2026",
+        "keywords": ["sec", "securities", "enforcement", "regulation", "fraud"],
+        "text": (
+            "SEC Enforcement FY2025: 456 actions, $17.9B total remedies. "
+            "FY2026 priorities: fraud, insider trading, retail investor protection. "
+            "New SEC SOX Group (Mar 2026): dedicated enforcement for auditor misconduct. "
+            "New Cross-Border Task Force (Sep 2025): targets foreign-based fraud affecting U.S. investors."
+        ),
+    },
 ]
 
 

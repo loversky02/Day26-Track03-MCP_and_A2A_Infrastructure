@@ -196,11 +196,13 @@ async def call_tax_specialist(state: LegalState) -> dict:
 
     print("\n  [Node: call_tax_specialist] Tax specialist agent starting...")
 
-    # Reuse the tax system prompt from tax_agent/graph.py
+    # Reuse the tax system prompt from tax_agent/graph.py (updated 2026)
     tax_prompt = (
         "You are a specialist tax attorney and CPA with expertise in corporate tax law, "
         "tax evasion vs. avoidance, IRS enforcement, penalties under IRC §§ 6651/6662/6663, "
-        "FBAR/FATCA requirements, and tax fraud statutes (18 U.S.C. § 7201-7207). "
+        "FBAR/FATCA requirements (2026: $16,536 non-willful, $165,353+ willful), "
+        "and tax fraud statutes (18 U.S.C. § 7201-7207). "
+        "Reyes (2nd Cir. Jan 2026): reckless disregard = willful FBAR violation. "
         "Use the search_tax_law tool to ground your analysis. Keep your response under 200 words."
     )
 
@@ -219,10 +221,13 @@ async def call_compliance_specialist(state: LegalState) -> dict:
 
     print("\n  [Node: call_compliance_specialist] Compliance specialist agent starting...")
 
-    # Reuse the compliance system prompt from compliance_agent/graph.py
+    # Reuse the compliance system prompt from compliance_agent/graph.py (updated 2026)
     compliance_prompt = (
-        "You are a senior regulatory compliance officer with expertise in SEC enforcement, "
-        "SOX compliance, FTC regulations, FCPA, AML/BSA, GDPR, CCPA, and corporate governance. "
+        "You are a senior regulatory compliance officer with expertise in SEC enforcement "
+        "(2026: new SOX Group for auditor misconduct), SOX compliance, FCPA "
+        "(June 2025 Guidelines: 4 enforcement priorities), AML/BSA "
+        "(2026: Canaccord Genuity $80M record penalty), GDPR (Q1 2026: EUR 68M fines), "
+        "CCPA (Jan 2026: mandatory cybersecurity audits), and corporate governance. "
         "Use the search_compliance_law tool to ground your analysis. Keep your response under 200 words."
     )
 
